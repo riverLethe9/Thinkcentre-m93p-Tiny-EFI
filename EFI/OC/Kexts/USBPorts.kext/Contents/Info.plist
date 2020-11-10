@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleGetInfoString</key>
+	<string>1.0 Copyright © 2018-2020 Headsoft. All rights reserved.</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.Headsoft.USBPorts</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>USBPorts</string>
+	<key>CFBundlePackageType</key>
+	<string>KEXT</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>1.0</string>
+	<key>IOKitPersonalities</key>
+	<dict>
+		<key>iMac14,4-EH01</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.driver.AppleUSBMergeNub</string>
+			<key>IOClass</key>
+			<string>AppleUSBMergeNub</string>
+			<key>IONameMatch</key>
+			<string>EH01</string>
+			<key>IOPCIPrimaryMatch</key>
+			<string>0x8c268086</string>
+			<key>IOProbeScore</key>
+			<integer>5000</integer>
+			<key>IOProviderClass</key>
+			<string>AppleUSBEHCIPCI</string>
+			<key>IOProviderMergeProperties</key>
+			<dict>
+				<key>kUSBSleepPortCurrentLimit</key>
+				<integer>2100</integer>
+				<key>kUSBSleepPowerSupply</key>
+				<integer>5100</integer>
+				<key>kUSBWakePortCurrentLimit</key>
+				<integer>2100</integer>
+				<key>kUSBWakePowerSupply</key>
+				<integer>5100</integer>
+				<key>port-count</key>
+				<data>AQAAAA==</data>
+				<key>ports</key>
+				<dict>
+					<key>PR01</key>
+					<dict>
+						<key>UsbConnector</key>
+						<integer>255</integer>
+						<key>name</key>
+						<string>PR01</string>
+						<key>port</key>
+						<data>AQAAAA==</data>
+					</dict>
+				</dict>
+			</dict>
+			<key>model</key>
+			<string>iMac14,4</string>
+		</dict>
+		<key>iMac14,4-EH02</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.driver.AppleUSBMergeNub</string>
+			<key>IOClass</key>
+			<string>AppleUSBMergeNub</string>
+			<key>IONameMatch</key>
+			<string>EH02</string>
+			<key>IOPCIPrimaryMatch</key>
+			<string>0x8c2d8086</string>
+			<key>IOProbeScore</key>
+			<integer>5000</integer>
+			<key>IOProviderClass</key>
+			<string>AppleUSBEHCIPCI</string>
+			<key>IOProviderMergeProperties</key>
+			<dict>
+				<key>kUSBSleepPortCurrentLimit</key>
+				<integer>2100</integer>
+				<key>kUSBSleepPowerSupply</key>
+				<integer>4700</integer>
+				<key>kUSBWakePortCurrentLimit</key>
+				<integer>2100</integer>
+				<key>kUSBWakePowerSupply</key>
+				<integer>4700</integer>
+				<key>port-count</key>
+				<data>AQAAAA==</data>
+				<key>ports</key>
+				<dict>
+					<key>PR01</key>
+					<dict>
+						<key>UsbConnector</key>
+						<integer>255</integer>
+						<key>name</key>
+						<string>PR01</string>
+						<key>port</key>
+						<data>AQAAAA==</data>
+					</dict>
+				</dict>
+			</dict>
+			<key>model</key>
+			<string>iMac14,4</string>
+		</dict>
+		<key>iMac14,4-XHC</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.driver.AppleUSBMergeNub</string>
+			<key>IOClass</key>
+			<string>AppleUSBMergeNub</string>
+			<key>IONameMatch</key>
+			<string>XHC</string>
+			<key>IOPCIPrimaryMatch</key>
+			<string>0x8c318086</string>
+			<key>IOProbeScore</key>
+			<integer>5000</integer>
+			<key>IOProviderClass</key>
+			<string>AppleUSBXHCILPTH</string>
+			<key>IOProviderMergeProperties</key>
+			<dict>
+				<key>kUSBSleepPortCurrentLimit</key>
+				<integer>2100</integer>
+				<key>kUSBSleepPowerSupply</key>
+				<integer>5100</integer>
+				<key>kUSBWakePortCurrentLimit</key>
+				<integer>2100</integer>
+				<key>kUSBWakePowerSupply</key>
+				<integer>5100</integer>
+				<key>port-count</key>
+				<data>FQAAAA==</data>
+				<key>ports</key>
+				<dict>
+					<key>USB 2.0 Front Left Port</key>
+					<dict>
+						<key>UsbConnector</key>
+						<integer>0</integer>
+						<key>name</key>
+						<string>USB 2.0 Front Left Port</string>
+						<key>port</key>
+						<data>AgAAAA==</data>
+					</dict>
+					<key>USB 2.0 Front Right Port</key>
+					<dict>
+						<key>UsbConnector</key>
+						<integer>0</integer>
+						<key>name</key>
+						<string>USB 2.0 Front Right Port</string>
+						<key>port</key>
+						<data>AQAAAA==</data>
+					</dict>
+					<key>USB 2.0 Rear Left Port</key>
+					<dict>
+						<key>UsbConnector</key>
+						<integer>0</integer>
+						<key>name</key>
+						<string>USB 2.0 Rear Left Port</string>
+						<key>port</key>
+						<data>CgAAAA==</data>
+					</dict>
+					<key>USB 2.0 Rear Middle Port</key>
+					<dict>
+						<key>UsbConnector</key>
+						<integer>0</integer>
+						<key>name</key>
+						<string>USB 2.0 Rear Middle Port</string>
+						<key>port</key>
+						<data>CQAAAA==</data>
+					</dict>
+					<key>USB 2.0 Rear Right Port</key>
+					<dict>
+						<key>UsbConnector</key>
+						<integer>0</integer>
+						<key>name</key>
+						<string>USB 2.0 Rear Right Port</string>
+						<key>port</key>
+						<data>AwAAAA==</data>
+					</dict>
+					<key>USB 3.0 Front Left Port</key>
+					<dict>
+						<key>UsbConnector</key>
+						<integer>3</integer>
+						<key>name</key>
+						<string>USB 3.0 Front Left Port</string>
+						<key>port</key>
+						<data>EQAAAA==</data>
+					</dict>
+					<key>USB 3.0 Front Right Port</key>
+					<dict>
+						<key>UsbConnector</key>
+						<integer>3</integer>
+						<key>name</key>
+						<string>USB 3.0 Front Right Port</string>
+						<key>port</key>
+						<data>EAAAAA==</data>
+					</dict>
+					<key>USB 3.0 Rear Left Port</key>
+					<dict>
+						<key>UsbConnector</key>
+						<integer>3</integer>
+						<key>name</key>
+						<string>USB 3.0 Rear Left Port</string>
+						<key>port</key>
+						<data>FQAAAA==</data>
+					</dict>
+					<key>USB 3.0 Rear Middle Port</key>
+					<dict>
+						<key>UsbConnector</key>
+						<integer>3</integer>
+						<key>name</key>
+						<string>USB 3.0 Rear Middle Port</string>
+						<key>port</key>
+						<data>FAAAAA==</data>
+					</dict>
+					<key>USB 3.0 Rear Right Port</key>
+					<dict>
+						<key>UsbConnector</key>
+						<integer>3</integer>
+						<key>name</key>
+						<string>USB 3.0 Rear Right Port</string>
+						<key>port</key>
+						<data>EgAAAA==</data>
+					</dict>
+					<key>WiFi Bluetooth</key>
+					<dict>
+						<key>UsbConnector</key>
+						<integer>255</integer>
+						<key>name</key>
+						<string>WiFi Bluetooth</string>
+						<key>port</key>
+						<data>BgAAAA==</data>
+					</dict>
+				</dict>
+			</dict>
+			<key>model</key>
+			<string>iMac14,4</string>
+		</dict>
+	</dict>
+	<key>OSBundleRequired</key>
+	<string>Root</string>
+</dict>
+</plist>
