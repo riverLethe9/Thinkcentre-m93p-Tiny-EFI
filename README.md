@@ -30,5 +30,5 @@ I've tried changing SMBIOS to MacMini but that also did not do anything.
 
 I tested for RTC issues, but there do not appear to be any bad regions. 
 
-CFG-Lock is not present in my BIOS settings. VerifyMsrE2.efi tells me that my CFG is locked, but the system boots perfectly. I tried using the (alternative method)[https://www.reddit.com/r/hackintosh/comments/hz2rtm/cfg_lockunlocking_alternative_method/] with the RU.efi tool, but CPUSetup does not show up in the list.
+CFG-Lock is not present in my BIOS settings. VerifyMsrE2.efi tells me that my CFG is locked, but the system boots perfectly. I tried using the [alternative method](https://www.reddit.com/r/hackintosh/comments/hz2rtm/cfg_lockunlocking_alternative_method/) with the RU.efi tool, but CPUSetup does not show up in the list.
 
