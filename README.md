@@ -12,7 +12,7 @@
 
 **Audio**: ALC283 (layout 15)
 
-**macOS version**: 10.15.7 (Catalina)
+**macOS version**: 11.0.1 (Big Sur)
 
 **Booter**: OpenCore 0.6.3
 
