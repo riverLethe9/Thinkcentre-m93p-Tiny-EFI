@@ -22,45 +22,9 @@
 				<key>Path</key>
 				<string>SSDT-EC.aml</string>
 			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>SSDT-EC-USBX</string>
-				<key>Path</key>
-				<string>SSDT-EC-USBX.aml</string>
-				<key>Enabled</key>
-				<true/>
-			</dict>
 		</array>
 		<key>Delete</key>
 		<array>
-			<dict>
-				<key>All</key>
-				<false/>
-				<key>Comment</key>
-				<string>Delete CpuPm</string>
-				<key>Enabled</key>
-				<true/>
-				<key>OemTableId</key>
-				<data>Q3B1UG0AAAA=</data>
-				<key>TableLength</key>
-				<integer>0</integer>
-				<key>TableSignature</key>
-				<data>U1NEVA==</data>
-			</dict>
-			<dict>
-				<key>All</key>
-				<false/>
-				<key>Comment</key>
-				<string>Delete Cpu0Ist</string>
-				<key>Enabled</key>
-				<true/>
-				<key>OemTableId</key>
-				<data>Q3B1MElzdAA=</data>
-				<key>TableLength</key>
-				<integer>0</integer>
-				<key>TableSignature</key>
-				<data>U1NEVA==</data>
-			</dict>
 		</array>
 		<key>Patch</key>
 		<array>
@@ -184,12 +148,12 @@
 				<data>AAAmDQ==</data>
 				<key>device-id</key>
 				<data>EgQAAA==</data>
+				<key>model</key>
+				<string>Intel HD Graphics 4600</string>
 				<key>framebuffer-patch-enable</key>
 				<data>AQAAAA==</data>
 				<key>framebuffer-unifiedmem</key>
 				<data>AAAAgA==</data>
-				<key>model</key>
-				<string>Intel HD Graphics 4600</string>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x1B,0x0)</key>
 			<dict>
@@ -358,7 +322,7 @@
 				<key>ExecutablePath</key>
 				<string></string>
 				<key>MaxKernel</key>
-				<string></string>
+				<string>19.9.9</string>
 				<key>MinKernel</key>
 				<string></string>
 				<key>PlistPath</key>
@@ -489,7 +453,7 @@
 			<key>CustomSMBIOSGuid</key>
 			<false/>
 			<key>DisableIoMapper</key>
-			<true/>
+			<false/>
 			<key>DisableRtcChecksum</key>
 			<false/>
 			<key>ExternalDiskIcons</key>
@@ -511,6 +475,8 @@
 			<key>ExtendBTFeatureFlags</key>
 			<true/>
 			<key>ForceSecureBootScheme</key>
+			<false/>
+			<key>LegacyCommpage</key>
 			<false/>
 		</dict>
 	</dict>
@@ -540,7 +506,7 @@
 			<key>TakeoffDelay</key>
 			<integer>0</integer>
 			<key>Timeout</key>
-			<integer>2</integer>
+			<integer>5</integer>
 		</dict>
 		<key>Debug</key>
 		<dict>
@@ -611,174 +577,6 @@
 				<key>Path</key>
 				<string>OpenShell.efi</string>
 			</dict>
-			<dict>
-				<key>Arguments</key>
-				<string>-b -n DSDT -z</string>
-				<key>Auxiliary</key>
-				<true/>
-				<key>Comment</key>
-				<string></string>
-				<key>Enabled</key>
-				<true/>
-				<key>Name</key>
-				<string>acpidump</string>
-				<key>Path</key>
-				<string>acpidump.efi</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>BootKicker.efi</string>
-				<key>Name</key>
-				<string>BootKicker.efi</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Arguments</key>
-				<string></string>
-				<key>Path</key>
-				<string>BootKicker.efi</string>
-				<key>Auxiliary</key>
-				<true/>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>ChipTune.efi</string>
-				<key>Name</key>
-				<string>ChipTune.efi</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Arguments</key>
-				<string></string>
-				<key>Path</key>
-				<string>ChipTune.efi</string>
-				<key>Auxiliary</key>
-				<true/>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>CleanNvram.efi</string>
-				<key>Name</key>
-				<string>CleanNvram.efi</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Arguments</key>
-				<string></string>
-				<key>Path</key>
-				<string>CleanNvram.efi</string>
-				<key>Auxiliary</key>
-				<true/>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>GopStop.efi</string>
-				<key>Name</key>
-				<string>GopStop.efi</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Arguments</key>
-				<string></string>
-				<key>Path</key>
-				<string>GopStop.efi</string>
-				<key>Auxiliary</key>
-				<true/>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>HdaCodecDump.efi</string>
-				<key>Name</key>
-				<string>HdaCodecDump.efi</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Arguments</key>
-				<string></string>
-				<key>Path</key>
-				<string>HdaCodecDump.efi</string>
-				<key>Auxiliary</key>
-				<true/>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>KeyTester.efi</string>
-				<key>Name</key>
-				<string>KeyTester.efi</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Arguments</key>
-				<string></string>
-				<key>Path</key>
-				<string>KeyTester.efi</string>
-				<key>Auxiliary</key>
-				<true/>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>MmapDump.efi</string>
-				<key>Name</key>
-				<string>MmapDump.efi</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Arguments</key>
-				<string></string>
-				<key>Path</key>
-				<string>MmapDump.efi</string>
-				<key>Auxiliary</key>
-				<true/>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>OpenControl.efi</string>
-				<key>Name</key>
-				<string>OpenControl.efi</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Arguments</key>
-				<string></string>
-				<key>Path</key>
-				<string>OpenControl.efi</string>
-				<key>Auxiliary</key>
-				<true/>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>ResetSystem.efi</string>
-				<key>Name</key>
-				<string>ResetSystem.efi</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Arguments</key>
-				<string></string>
-				<key>Path</key>
-				<string>ResetSystem.efi</string>
-				<key>Auxiliary</key>
-				<true/>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>RtcRw.efi</string>
-				<key>Name</key>
-				<string>RtcRw.efi</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Arguments</key>
-				<string></string>
-				<key>Path</key>
-				<string>RtcRw.efi</string>
-				<key>Auxiliary</key>
-				<true/>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>VerifyMsrE2.efi</string>
-				<key>Name</key>
-				<string>VerifyMsrE2.efi</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Arguments</key>
-				<string></string>
-				<key>Path</key>
-				<string>VerifyMsrE2.efi</string>
-				<key>Auxiliary</key>
-				<true/>
-			</dict>
 		</array>
 	</dict>
 	<key>NVRAM</key>
@@ -826,7 +624,7 @@
 			<key>MLB</key>
 			<string></string>
 			<key>ROM</key>
-			<data>ESIzRFVm</data>
+			<data></data>
 			<key>SpoofVendor</key>
 			<true/>
 			<key>SystemProductName</key>
@@ -834,7 +632,7 @@
 			<key>SystemSerialNumber</key>
 			<string></string>
 			<key>SystemUUID</key>
-			<string></string>
+			<string>73F876B8-D3FA-4366-8028-41AAFA0E3430</string>
 			<key>SystemMemoryStatus</key>
 			<string>Auto</string>
 			<key>ProcessorType</key>
@@ -847,7 +645,7 @@
 		<key>UpdateSMBIOS</key>
 		<true/>
 		<key>UpdateSMBIOSMode</key>
-		<string>Auto</string>
+		<string>Create</string>
 		<key>CustomMemory</key>
 		<false/>
 	</dict>
@@ -871,7 +669,7 @@
 		<key>Audio</key>
 		<dict>
 			<key>AudioCodec</key>
-			<integer>2</integer>
+			<integer>15</integer>
 			<key>AudioDevice</key>
 			<string>PciRoot(0x0)/Pci(0x1B,0x0)</string>
 			<key>AudioOut</key>
@@ -890,11 +688,9 @@
 		<key>Drivers</key>
 		<array>
 			<string>AudioDxe.efi</string>
-			<string>NvmExpressDxe.efi</string>
 			<string>OpenCanopy.efi</string>
 			<string>HfsPlus.efi</string>
 			<string>OpenRuntime.efi</string>
-			<string>OpenUsbKbDxe.efi</string>
 		</array>
 		<key>Input</key>
 		<dict>
@@ -982,7 +778,7 @@
 		<key>Quirks</key>
 		<dict>
 			<key>DeduplicateBootOrder</key>
-			<false/>
+			<true/>
 			<key>ExitBootServicesDelay</key>
 			<integer>0</integer>
 			<key>IgnoreInvalidFlexRatio</key>
