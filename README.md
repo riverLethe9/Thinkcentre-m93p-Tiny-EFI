@@ -1,5 +1,7 @@
 # Thinkcentre-m93p-Tiny-EFI
 
+**Chipset**: Intel Q87 Express
+
 **Processor**: i5 4570T
 
 **GPU**: Intel 4600
@@ -15,6 +17,12 @@
 **macOS version**: 11.0.1 (Big Sur)
 
 **Booter**: OpenCore 0.6.3
+
+---
+
+**Update 18 November**
+
+I figured out why the machine would not shut down. I had my iPhone setup to automatically connect when on WiFi. I ejected my iPhone and the machine shut down normally. I am not sure why this causes a problem, but the problem is solved, so I am satisfied.
 
 ---
 
