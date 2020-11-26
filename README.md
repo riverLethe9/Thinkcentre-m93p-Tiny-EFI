@@ -20,6 +20,10 @@
 
 ---
 
+**Update 26 November**
+
+Well, the previous update's success was short-lived. The machine shut down properly for a couple days, but now has reverted back to its old ways. Occassionally, it will shut down okay, but for the most part it won't. There does not seem to be any consistency to the conditions. 
+
 **Update 18 November**
 
 I figured out why the machine would not shut down. I had my iPhone setup to automatically connect when on WiFi. I ejected my iPhone and the machine shut down normally. I am not sure why this causes a problem, but the problem is solved, so I am satisfied.
